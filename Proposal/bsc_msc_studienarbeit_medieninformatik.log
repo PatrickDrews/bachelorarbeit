@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=latex 2016.2.24)  3 MAR 2016 12:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=latex 2016.2.24)  3 MAR 2016 13:22
 entering extended mode
 **./bsc_msc_studienarbeit_medieninformatik.tex
 (bsc_msc_studienarbeit_medieninformatik.tex
@@ -77,12 +77,6 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 66.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `T1/ptm/b/it' tried instead on input line 66.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 70.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 70.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 70.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 80.
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 82.
@@ -113,6 +107,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--112
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 133.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 133.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 133.
  [2]
 Overfull \hbox (0.43283pt too wide) in paragraph at lines 198--199
 [][]\T1/ptm/m/n/10.95 Gantt-Diagramm ein-fü-gen, das den zeit-li-chen Ver-lauf, die Ar-beit-s-pa-ke-te und Mei-len-stei-
@@ -124,20 +122,14 @@ Overfull \hbox (11.74268pt too wide) in paragraph at lines 225--232
 [][] 
  []
 
-[5]
-Overfull \hbox (33.25562pt too wide) in paragraph at lines 236--241
-\T1/ptm/m/n/10.95 ma-tik und Multimedia-Systeme als Be-ar-bei-te-rin des The-mas $\OML/cmm/m/it/10.95 Multimediallanech
-angesysteminavehicle$\T1/ptm/m/n/10.95 
- []
-
-[6] (bsc_msc_studienarbeit_medieninformatik.aux) ) 
+[5] [6] (bsc_msc_studienarbeit_medieninformatik.aux) ) 
 Here is how much of TeX's memory you used:
- 813 strings out of 493635
- 9415 string characters out of 3143770
+ 807 strings out of 493635
+ 9345 string characters out of 3143770
  61536 words of memory out of 3000000
- 4236 multiletter control sequences out of 15000+200000
- 21465 words of font info for 35 fonts, out of 3000000 for 9000
+ 4232 multiletter control sequences out of 15000+200000
+ 20552 words of font info for 32 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  22i,7n,19p,431b,184s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on bsc_msc_studienarbeit_medieninformatik.dvi (6 pages, 14000 bytes).
+Output written on bsc_msc_studienarbeit_medieninformatik.dvi (6 pages, 14020 bytes).
