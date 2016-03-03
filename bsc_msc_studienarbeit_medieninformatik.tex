@@ -1,0 +1,292 @@
+\documentclass[a4paper, 11pt]{article}
+\usepackage{german}
+\usepackage{a4wide}
+\usepackage[T1]{fontenc}
+\usepackage[latin1]{inputenc}
+\usepackage{times}
+\usepackage{ifthen}
+
+\topmargin 0cm \textheight 23cm \parindent0cm
+\renewcommand{\labelenumi}{\arabic{enumi}.} 
+\renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}}
+
+% ---------------------------------------------
+% HIER KONSTANTEN DEFINIEREN!
+% ---------------------------------------------
+
+\newcommand{\KandidatIn}{\emph{Patrick Drews}}
+%\newcommand{\KandGeschlecht}{n} %weiblich
+\newcommand{\KandGeschlecht}{w} %maennlich
+
+\newcommand{\KandStrasse}{\emph{Bloherfelder Stra{\ss}e}}
+\newcommand{\KandPlz}{\emph{26129}}
+\newcommand{\KandOrt}{\emph{Oldenburg}}
+\newcommand{\KandEmail}{\emph{Patrick.Drews@uni-oldenburg.de}}
+\newcommand{\KandTel}{\emph{Telefonnummer}}
+\newcommand{\KandMatrNr}{\emph{2385237}}
+
+\newcommand{\Titel}{Multimedial lane change system in a vehicle with an ambience light source} % Titel der Arbeit
+\newcommand{\StartDatum}{$01.04.2016$}
+\newcommand{\EndDatum}{$31.07.2016$}
+
+\newcommand{\Abteilung}{Professur Medieninformatik und Multimedia-Systeme}
+\newcommand{\GutachterIn}{Prof. Dr. Susanne Boll}%inkl. Titel
+\newcommand{\ZweitgutachterIn}{\emph{Zweitgutachter/in}} %inkl. Titel
+\newcommand{\BetreuerIn}{\emph{Betreuer/in (falls abweichend von Zweitgutachter/in)}} %inkl. Titel
+% Masterarbeit/Studienarbeit/Bachelorarbeit
+% entsprechend auskommentieren
+%\newcommand{\Arbeitstyp}{Masterarbeit}
+\newcommand{\Arbeitstyp}{Bachelorarbeit}
+%\newcommand{\Arbeitstyp}{Studienarbeit}
+
+\begin{document}
+%\selectlanguage{german}
+
+% -----------------------------------------------------------------------------
+%               Titel
+% -----------------------------------------------------------------------------
+
+
+Universit\"{a}t Oldenburg \hfill \today
+
+Department f"{u}r Informatik,
+
+Professur Medieninformatik 
+
+und Multimedia-Systeme
+
+\GutachterIn{}
+
+\ZweitgutachterIn{}
+
+\BetreuerIn{}\newline
+
+\begin{center}
+
+  \large{\bf \Arbeitstyp{} von \KandidatIn{}}
+
+  \vspace*{0.5cm}
+
+ \large{\bf "`\Titel"'}
+
+\end{center}
+
+\setlength{\parskip}{1.5ex plus0.5ex minus 0.5ex}
+
+% -----------------------------------------------------------------------------
+%               Text
+% -----------------------------------------------------------------------------
+
+\section{Einleitung}
+\begin{itemize}
+\item Heranf"{u}hrung an das Thema\\
+Ziel dieser Bachelor Arbeit ist es, ein System zu evaluieren, welches bei einem Spurwechsel auf der Autobahn assistieren soll. Dabei wird eine Ambiente Lichtquelle an der linken Seite des Fahrers angebracht. Diese Lichtquelle soll anzeigen ob ein gefahrenloser "{U}berholvorgang m"{o}glich ist oder nicht. \\
+\\
+Erkl"{a}rung weiterer Assistenzsysteme die funktionieren\\
+Unfallstatistiken bei "{U}berholvorg"{a}ngen mit einflie{\ss}en lassen\\
+Erkl"{a}ren, warum so ein System wichtig w"{a}re. (Andere Vorgehensweise erl"{a}utern..)\\
+
+
+\item Hintergrund und Motivation
+	\begin{itemize}
+	\item{}
+	\end{itemize}
+\item Problematik und Fragestellung
+	\begin{itemize}
+	\item{Problematik erl"{a}utern.}
+	\item{}
+	\end{itemize}
+\item Erwarteter Beitrag / Ziel der Arbeit
+\end{itemize}
+
+\section{Einordnung des Themas}
+\begin{itemize}
+\item Verwandte Arbeiten (inklusive Vorarbeiten aus der Arbeitsgruppe)
+\item Einordnung des eigenen Themas
+\end{itemize}
+
+% ----------------------------------------------------------------------------
+\section{Eigener Ansatz}
+\begin{itemize}
+\item Erste Ideen zur L"{o}sung der Problematik (unterlegt mit Illustrationen, Screenshots, Bildern)\\
+\item Geplantes Vorgehen, ggf. weiter unterteilt in Unterpunkte (z.B. Konzeptionell, Softwaretechnisch, Studien, ...)
+\end{itemize}
+
+% -----------------------------------------------------------------------------
+
+\section {Vereinbarungen}
+
+\begin{itemize}
+\item \emph{Nur bei Bachelorarbeiten die eine Forschungsseminararbeit enthalten:} Eine besonders umfangreiche Literaturrecherche hat zu erfolgen und ist zu Beginn der Arbeit in Form eines selbst\"{a}ndigen Referats im Rahmen des Oberseminars Medieninformatik und Multimedia-Systeme zu pr\"{a}sentieren.
+\item \emph{Nur bei Masterarbeiten:} Der Zwischenstand der Arbeit ist etwa bei Halbzeit in Form eines selbst\"{a}ndigen Referats im Rahmen des Oberseminars Medieninformatik und Multimedia-Systeme zu pr\"{a}sentieren und zur Diskussion zu stellen.
+\item Die Endergebnisse der Arbeit sind nach Abschluss der Bearbeitung in Form eines selbst\"{a}ndigen Referats im Rahmen des Oberseminars Medieninformatik und Multimedia-Systeme zu pr\"{a}sentieren. 
+\item Die implementierten Programme sind nach Vorgabe des betreuenden Mitarbeiters / der betreuenden Mitarbeiterin in bestehende Systemumgebungen zu integrieren und zu testen.
+\item Den Implementierungsarbeiten ist ein ingenieurm\"{a}{\ss}iges Softwaretechnik-Konzept zugrunde zu legen. Insbesondere ist der  Entwicklungszyklus (Aufgabendefinition, Entwurf, Implementierung,  Validierung und Evaluierung) durch eine geeignete Dokumentation nachzuweisen.
+\item Alle Materialien inklusive verwendeter Software und Bibliotheken, Ausarbeitungen und Vortr"{a}gen, Rohmaterialien aus Studien, Quellcode implementierter Programme und Dokumentation etc., sind zeitnah nach der Abgabe der Arbeit, sp"{a}testens jedoch zum Abschlussvortrag, den betreuenden Personen in "{u}bersichtlich strukturierter  Form auf einer CD abzugeben.
+\end{itemize}
+
+% -----------------------------------------------------------------------------
+
+\section {Organisatorisches}
+
+\begin{tabbing}
+Dauer der Arbeit: \hspace{1.1cm} \= \StartDatum -- \EndDatum\\
+\vspace{0.5ex}KandidatIn: \> \KandidatIn\\
+\> \KandStrasse\\
+\> \KandPlz{} \KandOrt\\
+\> E-Mail: \KandEmail{}\\
+\> Tel: \KandTel{}\\
+\> Matr.-Nr.: \KandMatrNr\\
+\vspace{0.5ex}Betreuer/in: \> \BetreuerIn\\
+Erstgutachter/in: \> \GutachterIn\\
+Zweitgutachter/in: \> \ZweitgutachterIn\\
+\end{tabbing}
+
+% -----------------------------------------------------------------------------
+
+\section {Voraussetzungen}
+
+\begin{itemize}
+\item Inhaltliche Abh"{a}ngigkeiten von anderen Arbeiten
+\item Verf"{u}gbarkeit von ben"{o}tigter Hard- u. Software
+	\begin{enumerate}
+	\item Es wird ein Fahrsimulator, ein Eye-Tracking System, Ambiente Lichtquelle und evtl. ein EEG-System verwendet um die Probanden im Fahrsimulator zu "{U}berpr"{u}fen
+	\end{enumerate}
+\end{itemize}
+
+% -----------------------------------------------------------------------------
+
+\section {Vorl\"{a}ufige Gliederung}
+\begin{enumerate}
+\item{Einleitung/Motivation}
+	\begin{enumerate}
+	\item{Motivation}
+	\item{Fragestellung}
+	\item{Verwandte Arbeiten}
+	\item{Ziele der Bachelorarbeit}
+	\end{enumerate}
+\item{Grundlegendes}
+	\begin{enumerate}
+	\item{Verwendeter Fahrsimulator}
+	\item{Die Ambiente Lichtquelle}
+	\item{Was ist ein Eye-Tracking-System}
+	\item{EEG-System}
+	\end{enumerate}
+\item{Anforderungsanalyse}
+\item{Prototyp Vorstellung}
+\item{Usebility Tests}
+	\begin{enumerate}
+	\item{Vorgehensweise}
+	\item{Datenvorstellung}
+	\end{enumerate}
+\item{Evaluation und Ergebnisse}
+	\begin{enumerate}
+	\item{Evaluationsvorgehen}
+	\item{Ergebnisse der Evaluation}
+	\end{enumerate}
+\item{Fazit}
+\item{Ausblick}
+\item{Anhang}
+\end{enumerate}
+
+% -----------------------------------------------------------------------------
+
+\section {Zeitplan}
+\begin{itemize}
+\item{Der Zeitplan soll im Verlauf der Arbeit auf ca. zweiw\"{o}chige Einheiten verfeinert werden und als
+Diskussionsgrundlage f\"{u}r kontinuierliche Treffen zwischen Student/in und Betreuer/in und vor allem f\"{u}r den Zwischenvortrag (bei Masterarbeiten) dienen}
+\item{Gantt-Diagramm einf"{u}gen, das den zeitlichen Verlauf, die Arbeitspakete und Meilensteine zeigt. Aufl"{o}sung maximal wochenweise.}
+\item{Textuelle Erl"{a}uterung der Arbeitspakete inklusive konkreter, stichwortartiger Aufz\"{a}hlung der zu l\"{o}senden Einzelaufgaben }
+\item{Textuelle Erl"{a}uterung der Meilensteine und der damit verbundenen angestrebten Ergebnisse, die am Ende auch "`verifizierbar"' sein sollten.}
+\end{itemize}
+
+% -----------------------------------------------------------------------------
+%               Literaturliste
+% -----------------------------------------------------------------------------
+
+\section {Literaturverzeichnis}
+\begin{itemize}
+\item{Liste der referenzierten Arbeiten}
+\end{itemize}
+
+%\bibliographystyle{geralpha}
+%\bibliography{filename}
+
+% -----------------------------------------------------------------------------
+%               Unterschriften
+% -----------------------------------------------------------------------------
+\begin{appendix}
+
+\newpage
+\vspace{3cm}
+
+\section*{Unterschriften}
+\vspace{3cm}
+\begin{tabular}{ccc}
+  --------------------------------------------------- &  & ---------------------------------------------------\\
+  \KandidatIn{} &  & \ZweitgutachterIn{}  \\ \vspace{3cm}
+   &  &   \\
+  --------------------------------------------------- &  & ---------------------------------------------------\\
+  \BetreuerIn{} &  & \GutachterIn{}  \\
+\end{tabular}
+
+\newpage
+
+\section*{Einverst\"{a}ndniserkl\"{a}rung}
+ \ifthenelse{\equal{\KandGeschlecht}{w}}{Die Unterzeichnerin}{Der Unterzeichner} erkennt mit der Annahme des \Arbeitstyp sthemas der \Abteilung{} als
+ \ifthenelse{\equal{\KandGeschlecht}{w}}{Bearbeiterin}{Bearbeiter} des Themas
+"`\Titel"' die folgenden Rahmenbedingungen zur Durchf\"{u}hrung der
+Arbeit, zur Vertraulichkeit und zur weiteren Verwertung der
+Ergebnisse an:
+
+\begin{enumerate}
+\item Zur Durchf\"{u}hrung der Arbeit ist unter Umst\"{a}nden die Kenntnis
+und das Zugreifen auf Daten und Informationen notwendig, die der
+\Abteilung{} oder dem mit
+der Professur verbundenen Institut OFFIS von Dritten unter
+einer Vertraulichkeitserkl\"{a}rung (Non-Disclosure-Agreement) zur
+Verf\"{u}gung gestellt wurden.
+\ifthenelse{\equal{\KandGeschlecht}{w}}{Die Bearbeiterin}{Der
+Bearbeiter} wird vom Betreuer der Arbeit auf solche Daten oder
+Informationen hingewiesen. Solche Daten oder Informationen sind
+nur im unmittelbaren Rahmen der Bearbeitung der Arbeit zu
+verwenden. Sie sind gegen den Zugriff durch Andere zu sch\"{u}tzen
+und d\"{u}rfen w\"{a}hrend und nach der Bearbeitung der Arbeit in
+keiner Form an Andere weitergegeben werden.
+
+\item  Etwaige im Rahmen der Arbeit erhobene, personenbezogene Daten sind vor unberechtigtem Zugriff zu sch\"{u}tzen.
+
+\item  Die \Abteilung{} und das Institut OFFIS
+behalten sich das Recht vor, Ergebnisse der Arbeit, einschlie{\ss}lich
+der schriftlichen Ausarbeitung, in geeigneter Form -- auch
+elektronisch im Web -- zu ver\"{o}ffentlichen, nat\"{u}rlich mit Angabe
+der entsprechenden Quelle.
+
+\item Die \Abteilung{} und das Institut OFFIS
+behalten sich das Recht vor, Ergebnisse der Arbeit weiter zu
+verwerten. Dies schlie{\ss}t auch die kommerzielle Verwertung durch
+die Carl von Ossietzky Universit\"{a}t Oldenburg, das Institut OFFIS
+oder deren Projektpartner ein. Das Recht
+\ifthenelse{\equal{\KandGeschlecht}{w}}{der Bearbeiterin}{des
+Bearbeiters} \ifthenelse{\equal{\Arbeitstyp}{Individuelles
+Projekt}}{des indivuellen Projekts}{der {\Arbeitstyp}} an der
+eigenen Weiterverwertung bleibt hiervon unber\"{u}hrt.
+
+\end{enumerate}
+
+Hiermit best\"{a}tige ich, dass ich obige Rahmenbedingungen zur
+Bearbeitung des an mich vergebenen Themas zur Kenntnis genommen
+habe und verpflichte mich, sie zu beachten.
+
+\vspace{3cm}
+\begin{tabular}{ccc}
+
+  Oldenburg, den \today &  &  \\
+     &  & ---------------------------------------------------\\
+   &  & \KandidatIn{}  \\
+\end{tabular}
+
+\end{appendix}
+
+
+\end{document}

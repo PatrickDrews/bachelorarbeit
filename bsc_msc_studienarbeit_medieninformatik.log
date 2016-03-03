@@ -1,0 +1,143 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=latex 2016.2.24)  3 MAR 2016 12:03
+entering extended mode
+**./bsc_msc_studienarbeit_medieninformatik.tex
+(bsc_msc_studienarbeit_medieninformatik.tex
+LaTeX2e <2015/10/01> patch level 2
+Babel <3.9n> and hyphenation patterns for 69 languages loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(C:\Users\Patze\AppData\Roaming\MiKTeX\2.9\tex\latex\german\german.sty v2.5e 1998-07-08
+Package: german 1998/07/08 v2.5e Support for writing german texts (br)
+\grmnU@D=\dimen103
+german -- \language number for Austrian undefined, default 23 used.
+)
+(C:\Users\Patze\AppData\Roaming\MiKTeX\2.9\tex\latex\a4wide\a4wide.sty
+Package: a4wide 1994/08/30
+
+(C:\Users\Patze\AppData\Roaming\MiKTeX\2.9\tex\latex\ntgclass\a4.sty
+Package: a4 2004/04/15 v1.2g A4 based page layout
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2015/03/17 v1.2c Input encoding file
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\times.sty"
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(bsc_msc_studienarbeit_medieninformatik.aux)
+\openout1 = `bsc_msc_studienarbeit_medieninformatik.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 42.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+
+ []
+
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 66.
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 66.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 70.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 70.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 70.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 80.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 82.
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 82.
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--88
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--88
+
+ []
+
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 92.
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+
+ []
+
+[1
+
+]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 133.
+ [2]
+Overfull \hbox (0.43283pt too wide) in paragraph at lines 198--199
+[][]\T1/ptm/m/n/10.95 Gantt-Diagramm ein-fü-gen, das den zeit-li-chen Ver-lauf, die Ar-beit-s-pa-ke-te und Mei-len-stei-
+ne zeigt.
+ []
+
+[3] [4]
+Overfull \hbox (11.74268pt too wide) in paragraph at lines 225--232
+[][] 
+ []
+
+[5]
+Overfull \hbox (33.25562pt too wide) in paragraph at lines 236--241
+\T1/ptm/m/n/10.95 ma-tik und Multimedia-Systeme als Be-ar-bei-te-rin des The-mas $\OML/cmm/m/it/10.95 Multimediallanech
+angesysteminavehicle$\T1/ptm/m/n/10.95 
+ []
+
+[6] (bsc_msc_studienarbeit_medieninformatik.aux) ) 
+Here is how much of TeX's memory you used:
+ 813 strings out of 493635
+ 9415 string characters out of 3143770
+ 61536 words of memory out of 3000000
+ 4236 multiletter control sequences out of 15000+200000
+ 21465 words of font info for 35 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 22i,7n,19p,431b,184s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on bsc_msc_studienarbeit_medieninformatik.dvi (6 pages, 14000 bytes).
